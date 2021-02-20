@@ -26,6 +26,7 @@ class ListFragment : Fragment() {
         val textView: TextView = rootViewName.findViewById(R.id.text_dashboard)
         dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
+            //it here means this in old Java language
         })
         return rootViewName
     }
