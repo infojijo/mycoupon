@@ -27,6 +27,7 @@ class ListFragment : Fragment() {
         dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
             //it here means this in old Java language
+            //even i have few changes to be done, here we go.
         })
         return rootViewName
     }
