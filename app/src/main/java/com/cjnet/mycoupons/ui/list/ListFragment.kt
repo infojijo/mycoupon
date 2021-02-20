@@ -22,11 +22,11 @@ class ListFragment : Fragment() {
         dashboardViewModel =
                 ViewModelProviders.of(this).get(ListViewModel::class.java)
         //This method is just a sample.
-        val rootView = inflater.inflate(R.layout.fragment_list, container, false)
-        val textView: TextView = rootView.findViewById(R.id.text_dashboard)
+        val rootViewName = inflater.inflate(R.layout.fragment_list, container, false)
+        val textView: TextView = rootViewName.findViewById(R.id.text_dashboard)
         dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
-        return rootView
+        return rootViewName
     }
 }
