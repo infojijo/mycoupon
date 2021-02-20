@@ -15,9 +15,9 @@ class ListFragment : Fragment() {
     private lateinit var dashboardViewModel: ListViewModel
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         dashboardViewModel =
                 ViewModelProviders.of(this).get(ListViewModel::class.java)
