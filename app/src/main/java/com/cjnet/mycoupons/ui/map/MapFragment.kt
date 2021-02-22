@@ -32,5 +32,6 @@ class MapFragment : Fragment() {
 
         //upwork feature 2
         //upwork main branch bug fixes
+        //upwork next major fixes
     }
 }
