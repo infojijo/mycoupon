@@ -27,5 +27,6 @@ class MapFragment : Fragment() {
             textView.text = it
         })
         return root
+        //upwork main branch bug fixes
     }
 }
