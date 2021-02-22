@@ -34,6 +34,8 @@ class ListFragment : Fragment() {
             //fixes made by other teams.
 
             //feature 1
+
+            //feature 2
             //this is a huge bug fix
 
             //feature 1
