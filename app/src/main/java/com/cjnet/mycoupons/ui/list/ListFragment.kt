@@ -32,6 +32,18 @@ class ListFragment : Fragment() {
             //second line for rebase
 
             //fixes made by other teams.
+
+            //feature 1
+
+            //feature 2
+            //this is a huge bug fix
+
+            //nice feature 11
+            //nice feature 12
+
+            //feature 1
+
+            //feature 2
             //this is a huge bug fix
 
             //nice bug fix 13
